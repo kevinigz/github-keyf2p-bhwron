@@ -1,0 +1,4 @@
+<igx-spreadsheet #spreadsheet height="500px" width="100%">
+</igx-spreadsheet>
+<input type="file" (change)="upload($event.target.files[0])" />
+<button (click)="save()"> Save</button>
